@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Decodificador de texto</title>
+</head>
+<body>
+    <header class="cabecalhoAlura">
+        <img src="Assets/logo-alura.png" alt="logo da alura">
+    </header>
+    
+    <main>
+        <div class="campo">
+
+            <div class="campo-central">   
+
+                <input class="campo-central-input" id="texto-original" type="text" placeholder="Digite seu texto">
+
+                <div class="alerta">                
+                    <img src="Assets/attention.png"  alt="sinal de exclamacao"> 
+                    <p class="alerta-texto">Apenas letras minúsculas e sem acento</p>                
+                </div>
+
+                <div class="campo-botoes">              
+                    <div>
+                     <button onclick="esconder('conteudo')" id="criptografar" class="botoes">Criptografar</button>                
+                    </div>
+                <button></button>
+                    <div>
+                     <button onclick="esconder('conteudo')" id="descriptografar" class="botoes" >Descriptografar</button>                
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="campo-lateral" >    
+            
+            <textarea name="" id="resultado"></textarea>
+            <div id="conteudo">
+                <img src="Assets/avatar-busca.png">
+                <p class="campo-lateral-texto"> Nenhuma mensagem <br> encontrada<br></p>
+                <div class="campo-lateral-texto2" >Digite um texto que você deseja <br> criptografar ou descriptografar.</div>
+            </div>
+                <button onclick="" id="btn_copiar" class="botao-copiar">Copiar</button>
+            </div>
+                
+        </div> 
+    </main>
+</body>
+    <script src="app.js" defer></script>
+</html>
