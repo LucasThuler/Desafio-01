@@ -3,6 +3,7 @@ Sobre o Projeto
 Resultado do primeiro desafio do programa ONE, da Oracle em parceria com a Alura:
 
 Decodificador de texto com design responsivo feito em HTML, CSS e JavaScript.
+![image](https://github.com/user-attachments/assets/b113a8f4-075f-44c4-be73-23eaade57d1e)
 
 
 Chave de Criptografia
